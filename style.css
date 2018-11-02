@@ -426,7 +426,7 @@ background: #0069ff;
 .container_second_article_top{
   width:100%;
   height:600px;
-  background-image: url(https://www.digitalocean.com/assets/media/homepage/data-center-map-8227272d.svg),linear-gradient(180deg,#0047c6 0,#001d99);
+  background-image: url(),linear-gradient(180deg,#0047c6 0,#001d99);
   background-position: 50%;
   background-repeat: no-repeat;
 }
@@ -727,6 +727,8 @@ tr a:hover{
   }
 }
 
+/* FOOTER WITH ACCOUNT BUTTON*/
+
 .footer_box{
   width: 100%;
   height: 300px;
@@ -759,4 +761,52 @@ tr a:hover{
   font-weight:bold;
   text-align: center;
   color: #0069ff;
+}
+
+/* FOOTER WITH SOCIAL MEDIA LINKS */
+
+footer .content_area .footer_col {
+  margin-bottom: 20px;
+  position: relative;
+  min-height: 1px;
+  padding-top: 37px;
+  padding-right: 15px;
+  padding-left: 36px;
+}
+
+#background{
+  background-color: #010e28;
+}
+
+.logo_home{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+footer p {
+  color: white;
+}
+
+footer .copyright, footer .categoryList li>a , footer .social_link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .copyright {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+footer .categoryList li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+footer .social_link {
+  margin-left: 25px;
+  margin-right: -15px;
+}
+
+footer .categoryList li>a:hover {
+  color:white;
 }
